@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    color: grey;
+}
+
+.icon{
+    display: inline;
+}
+
+.navbar-nav{
+    
+    justify-content: flex-end;
+}
+
+header a{
+    
+    font-size: .9em;
+    color: grey;
+}
+.navbar-toggle{
+    color: grey;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow:0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index:1;
+
+}
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background:grey;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding:0.9em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to left top,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/icrowdme-PSD---cssauthor.png);
+    
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.hero h1{
+    color: white;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.hero h6{
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+
+.hero .btn{
+    background-color: rgb(65, 221, 86);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 25px;
+}
+.about{
+    display: flex;
+    height: 80vh;
+    
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    text-align: center;
+    align-items: center;
+}
+.about img{
+    margin-top: 4rem;
+}
+.about h2{
+    padding-top:3rem;
+    width: 60%;
+    text-transform: uppercase;
+    color: #423f3f;
+}
+.about p{
+    margin-top: 3rem;
+    color: grey;
+    display: block;
+}
+
+.feature{
+    height:30%;
+    
+    margin:70px 0;
+    width: 98.5%;
+}
+
+.feature h4{
+    padding-bottom: 20px;
+}
+
+.feature .part-1{
+    background: #b5d3ec ;
+    height: 15rem;
+    display: flex;
+    position: relative;
+
+}
+.feature .part-2{
+   background:#f1bb97 ; 
+   height: 15rem;
+   display: flex;
+   position: relative;
+}
+
+.feature .part-1 .img{
+    margin-top: 45px;
+    padding-left: 70px;
+}
+
+.feature .part-1 .description{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.feature .part-2 .img{
+    margin-top: 59px;
+    padding-left: 70px;
+}
+
+.feature .part-2 .description{
+    margin-top: 30px;
+    padding-left: 55px;
+}
+
+.feature .part-1 .description .btn{
+    padding:10px 15px ;
+    color: white;
+    background-color: turquoise;
+}
+.feature .part-2 .description .btn{
+    padding:10px 15px ;
+    color: white;
+    background-color: rgb(134, 233, 172);
+}
+
+.card{
+    border-radius: 10px;
+    color:grey;
+    border: none;
+}
+.bod{
+
+    border-right: 1px solid grey;
+     border-left:  1px solid grey;
+      border-bottom: 1px solid grey;
+      border-radius: 10px;
+}
+
+
+.card-footer{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.days{
+    margin-left: 130px;
+}
+.text-muted{
+    font-weight: 700;
+}
+
+footer img {
+
+    padding-left: 170px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+@media (min-width: 501px) and (max-width: 768px) {
+
+
+
+} 
+
+/* Medium devices */
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+
+/* large devices */
+
+@media (min-width: 1200px)
